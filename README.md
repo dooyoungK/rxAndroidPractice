@@ -2,14 +2,14 @@
 
 ===========
 
-This is a simple example code for practicing rxJava in Android application. Many useful rxAndroid libraries are included.
-
+This is a simple example code for practicing rxJava in Android application. It will provide how the code can be handled and simplified by using rxJava.
 
 -----
 rxAndroidPractice provides the following concepts:
-* Basic Operators
-* RxBinding 
-* RetroLambda
+* Some basic operators
+* Easier view binding - RxBinding 
+* Lambda expression in Android application - RetroLambda
+* Practice - Simple registration form and asynchronous handling
 
 Setup
 -----
