@@ -2,7 +2,7 @@
 
 ===========
 
-This is a simple example code for practicing rxJava in Android application. It will provide how the code can be handled and simplified by using rxJava.
+This is a simple example code for practicing rxJava in Android application. It will provide how the code can be changed and simplified by using rxJava.
 
 -----
 rxAndroidPractice provides the following concepts:
