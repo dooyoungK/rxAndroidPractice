@@ -17,17 +17,15 @@ It requires to install Java 8 version.
 
 And, add the following to your project `build.gradle` if you don't have :
 
-1. plugin
         apply plugin: 'me.tatarka.retrolambda'
 
 
-2. compile options
         compileOptions {
                 sourceCompatibility JavaVersion.VERSION_1_8
                 targetCompatibility JavaVersion.VERSION_1_8
             }
 
-3. dependency
+
         dependencies {
             compile fileTree(dir: 'libs', include: ['*.jar'])
             testCompile 'junit:junit:4.12'
