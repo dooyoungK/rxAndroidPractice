@@ -9,7 +9,7 @@ rxAndroidPractice provides the following concepts:
 * Some basic operators
 * Easier view binding - RxBinding 
 * Lambda expression in Android application - RetroLambda
-* Practice - Simple registration form and asynchronous handling
+* Practice - Simple registration form and handling asynchronous task 
 
 Setup
 -----
