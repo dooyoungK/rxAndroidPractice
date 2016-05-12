@@ -9,7 +9,8 @@ rxAndroidPractice provides the following concepts:
 * Some basic operators
 * Easier view binding - RxBinding 
 * Lambda expression in Android application - RetroLambda
-* Practice - Simple registration form and handling asynchronous task 
+* Practice - Simple registration form and handling asynchronous task
+* Practice - Multi-threaded REST request with Github API - Retrofit & RxJava
 
 Setup
 -----
@@ -35,6 +36,9 @@ And, add the following to your project `build.gradle` if you don't have :
             compile 'io.reactivex:rxandroid:1.1.0'
             compile 'com.jakewharton.rxbinding:rxbinding:0.3.0'
             compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+            compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+            compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2'
+            compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
         }
 
 
