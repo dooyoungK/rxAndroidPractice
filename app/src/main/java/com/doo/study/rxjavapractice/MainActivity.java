@@ -13,7 +13,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private ListView listView;
-    private String[] array = {"Operators", "ViewBinding & Lambda", "Async"};
+    private String[] array = {"Operators", "ViewBinding & Lambda", "Async", "REST"};
 
     public static boolean isEmpty(CharSequence sequence) {
         return sequence.length() != 0;
@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 2:
                 startActivity(new Intent(this, Async.class));
+                break;
+            case 3:
+                startActivity(new Intent(this, GithubServiceActicity.class));
+                break;
             default:
                 break;
         }
